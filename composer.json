@@ -4,8 +4,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Ahmed Al-Shahawi",
-            "email": "alshahawi@outlook.com"
+            "name": "Norman Schulz",
+            "email": "normi@outlook.com"
         }
     ],
     "require": {
@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Elnooronline\\LaravelTranslationLoaderGui\\": "src/"
+            "normimuc\\laravel-translation-loader-gui\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Elnooronline\\LaravelTranslationLoaderGui\\Providers\\TranslationLoaderGuiProvider"
+                "normimuc\\laravel-translation-loader-gui\\Providers\\TranslationLoaderGuiProvider"
             ]
         }
     }
