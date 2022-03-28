@@ -38,7 +38,7 @@ class Controller extends BaseController
     {
         $groups = LanguageLine::select('group')->groupBy('group')->pluck('group');
 
-        if ($request->group) {
+        if ($request->group OR $groups->count()>0) {
             $group = $request->group;
             $lines = LanguageLine::where('group', $request->group)->get();
         }
