@@ -10,9 +10,7 @@
     ],
     "require": {
         "php": ">=5.6.0",
-        "illuminate/support": "~5.5.0|~5.6.0",
-        "illuminate/routing": "~5.5.0|~5.6.0",
-        "spatie/laravel-translation-loader": "^2.1"
+        "spatie/laravel-translation-loader": "^2.7"
     },
     "autoload": {
         "psr-4": {
