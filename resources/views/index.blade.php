@@ -1,7 +1,6 @@
-@extends('translation-loader-gui::layout')
-
+@extends('layouts.app')
 @section('content')
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
@@ -120,7 +119,7 @@
     </div>
 @endsection
 
-@push('scripts')
+
     <script>
         function controlTrans(url, lang, id, method) {
             let trans = document.getElementById(`trans${lang+id}`);
@@ -147,4 +146,5 @@
             window.location.search = `group=${group}`;
         }
     </script>
-@endpush
+
+@endsection
