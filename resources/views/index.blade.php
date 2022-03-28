@@ -52,7 +52,6 @@
                                                 <td id="{{ $lang . $line->id }}">
                                                     <a href="javascript:" data-toggle="modal" data-target="#exampleModal{{ $line->id . $lang }}">
                                                         {{ $line->text[$lang] }}
-                                                        <i class="ion-edit"></i>
                                                     </a>
                                                     <div class="modal fade" id="exampleModal{{ $line->id . $lang }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                         <div class="modal-dialog" role="document">
@@ -85,7 +84,7 @@
                                             @else
                                                 <td id="{{ $lang . $line->id }}">
                                                     <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#exampleModal{{ $line->id . $lang }}">
-                                                        add <i class="ion-plus-round"></i>
+                                                        add 
                                                     </button>
                                                     <div class="modal fade" id="exampleModal{{ $line->id . $lang }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                         <div class="modal-dialog" role="document">
